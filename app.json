@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "reactmqtt",
+    "slug": "reactmqtt",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "reactmqtt"
+}
