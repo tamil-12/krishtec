@@ -4,7 +4,8 @@ import { Button, View } from 'react-native';
 
 const App = () => {
   const handleLedToggle = (status) => {
-    axios.post('http://localhost:3000/led', { status })
+    console.log('kk')
+    axios.post('https://krishtec.onrender.com/led', { status })
       .then(response => console.log(response.data))
       .catch(error => console.error(error));
   };
